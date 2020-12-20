@@ -1,0 +1,18 @@
+{
+    "name": "igonrlist",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "webRequest"
+    ],
+
+    "manifest_version": 2
+}
